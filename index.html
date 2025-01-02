@@ -178,6 +178,15 @@
             font-size: 1.2rem;
         }
     </style>
+
+    <!-- Vercel Analytics Script -->
+   <script type="module">
+    import { Analytics } from 'https://cdn.jsdelivr.net/npm/@vercel/analytics@0.1.0/dist/analytics.min.js';
+    
+    window.onload = () => {
+        Analytics();
+    };
+</script>
 </head>
 <body>
     <!-- Header Section -->
